@@ -1,0 +1,216 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+h2{
+    margin:0;
+}
+/*landingpage*/
+#landing-page{
+    background-image: url("https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.title-background{
+    background:#070707;
+    width:fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    color: #D0D3D4;
+    font-size: 2em;
+
+}
+.subtitle{
+    text-align: center;
+    color: lavenderblush;
+    font-size: 20px;
+    position: inherit;
+}
+.nav-slider{
+    padding: 15px;
+    cursor: pointer;
+
+}
+.line{
+    background:#eee;
+    
+    height: 3px;
+    margin: 5px;
+    width: 30px;
+}
+.line:nth-child(1){
+    margin-top: 0;
+}
+
+/*nav-slider-section*/
+.nav-slider-section{
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    transform: translateX(-100%);
+}
+
+
+.close-nav-slider{
+    border: none;
+    outline: none;
+    float: right;
+    background: transparent;
+    color: #f1c40f;
+    font-size: 1.5em;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-links-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+
+
+}
+.nav-links-container{
+    text-align: center;
+    padding: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.5em;
+}
+
+.opennav{
+
+    animation: opennav 0.5s forwards;
+}
+
+.closenav{
+    animation: closenav 0.5s forwards;
+
+}
+
+@keyframes opennav{
+    100%{
+        transform: translateX(0%);
+    }
+
+}
+@keyframes closenav{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#menu{
+    background: #000;
+
+}
+.menu-title{
+    color:#D0D3D4;
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.1em;
+    color:#eee;
+
+}
+.menu-price{
+    float: right;
+}
+/*restaurant info*/
+#restaurant-info{
+    background: #070707;
+    padding:20px;
+}
+#gallery{
+    color:#070707;
+    padding:20px;
+}
+.title-text{
+    text-align: center;
+    font-size: 2em;
+    color:#D0D3D4;
+    padding:20px;
+}
+
+#gallery{
+    padding: 40px;
+    background: #070707;;
+  }
+  .gallery-item{
+    background: linear-gradient(rgb(rgba(241, 161, 13)) rgb(rgb(255, 165, 0)));
+    background-image: url("https://images.pexels.com/photos/372882/pexels-photo-372882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  
+  }
+  .gallery-item img{
+    display:block;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s ease;
+  }
+  .gallery-item img:hover{
+    opacity: 0.5;
+  }
+  @media screen and (min-width:576px){
+    #gallery-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (min-width:992px){
+    #gallery-center{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+.restaurant-info-title{
+    color:#D3CAC8;
+    text-align: center;
+    font-size: 2em;
+}
+.info-container{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.address-content, .business-hours .contact-content{
+    padding:15px;
+}
+
+.address, .hours{
+    font-size: 1.5em !important;
+    text-align: center;
+}
+
+.phone{
+    font-size: 1.5em !important;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:760px){
+    .info-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .address-content, .business-hours{
+        border-right: 1px solid #eee;
+        padding:30px;
+    }
+    .contact-content{
+        padding:30px;
+    }
+}

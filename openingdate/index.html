@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9c59bb837e.js" crossorigin="anonymous"></script>
+    <title>SUSHI BAR</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+<main>
+    <section id="landing-page">
+        <div class="nav-slider">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <header class="title-background">
+            <h2 class="title">Sushi Bar</h2>
+            <h1 class="subtitle">NEW OPENING<br>23RD SEPT</h1>
+        </header>
+    </section>
+
+    <section class="nav-slider-section">
+        <button class="close-nav-slider">X</button>
+        <section class="nav-links-container">
+            <ul>
+                <li><a class="nav-links" href="#menu">Menu</a></li>
+                <li><a class="nav-links" href="#restaurant-info">Restaurant Information</a></li>
+                <li><a class="nav-links" href="#gallery">Gallery</a></li>
+
+            </ul>
+        </section>
+    </section>
+<section id="menu">
+    <h2 class="menu-title">Menu</h2>
+    <section class="tabs-container">
+        <section class="tabs">
+            <button class="tabheader active-tab" data-tab="1">Sushi</button>
+            <button class="tabheader" data-tab="2">Drinks</button>
+            <button class="tabheader" data-tab="3">Appetizers</button>
+            <button class="tabheader"data-tab="4">Deserts</button>
+        </section>
+        <section id="tabsection-1" class="tabsection show-tab">
+            <p>1. Gulab-Jamon<span class="menu-price">$10.00</span></p>
+            <p>2. Yellow Tail<span class="menu-price">$20.00</span></p>
+            <p>3. Californa-Roll<span class="menu-price">$15.00</span></p>
+            <p>4. Spicy Salmon<span class="menu-price">$30.00</span></p>
+        </section>
+        <section id="tabsection-2" class="tabsection hide-tab">
+            <p>1. cococola<span class="menu-price">$10.00</span></p>
+            <p>2. Fresh juice<span class="menu-price">$20.00</span></p>
+            <p>3. Cocktail<span class="menu-price">$15.00</span></p>
+            <p>4. Martini<span class="menu-price">$30.00</span></p>
+        </section>
+        <section id="tabsection-3" class="tabsection hide-tab">
+            <p>1. Calamari<span class="menu-price">$10.00</span></p>
+            <p>2. Edamme<span class="menu-price">$20.00</span></p>
+            <p>3. Gyozac<span class="menu-price">$15.00</span></p>
+            <p>4. Mizo-soup<span class="menu-price">$30.00</span></p>
+        </section>
+        <section id="tabsection-4" class="tabsection hide-tab">
+            <p>1. Brownie<span class="menu-price">$10.00</span></p>
+            <p>2. Blackcurrent<span class="menu-price">$40.00</span></p>
+            <p>3. Carving Icecreams<span class="menu-price">$50.00</span></p>
+            <p>4. CheeseCake<span class="menu-price">$30.00</span></p>
+        </section>
+        
+    </section>
+</section>
+
+<section id="gallery">
+    <div>
+      <h2 class="title-text">Gallery</h2>
+    </div>
+    <div id="gallery-center">
+      <article class="gallery-item">
+        <a href="images/pic1.jpg" target="_blank">
+          <img src="images/pic1.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic2.jpg" target="_blank">
+          <img src="images/pic2.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic3.jpg" target="_blank">
+          <img src="images/pic3.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic4.jpg" target="_blank">
+          <img src="images/pic4.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic5.jpg" target="_blank">
+          <img src="images/pic5.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic6.jpg" target="_blank">
+          <img src="images/pic6.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic7.jpg" target="_blank">
+          <img src="images/pic7.jpg" alt="">
+        </a>
+      </article>
+
+      <article class="gallery-item">
+        <a href="images/pic8.jpg" target="_blank">
+          <img src="images/pic8.jpg" alt="">
+        </a>
+      </article>
+    </div>
+  </section>
+
+
+<section id="restaurant-info">
+    <section class="info-container">
+    <section class="address-content">
+        <h2 class="restaurant-info-title">Address</h2>
+        <p class="address">1234 Restaurant st</p>
+        <p class="address">Chicago,Illiosis</p>
+    </section>
+    <section class="business-hours" >
+        <h2 class="restaurant-info-title">Business-hours</h2>
+        <p class="hours">Monday-Friday:9am-10pm</p>
+        <p class="hours">Saturday&Sunday:4pm-12am</p>
+    </section>
+    <section class="contact-content">
+        <h2 class="restaurant-info-title">PickUp</h2>
+        <p class="phone">Call Us: 123-321-1234</p>
+    </section>
+    </section>
+</section>
+
+</main>
+
+<script src="main.js"></script>
+<script src="tabs.js"></script>
+</body>
+</html>
