@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Admin</title>
+
+  <!-- Custom fonts for this template-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/admin-2.min.css" rel="stylesheet">
+  <link href="css/admin-2.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar" style="background:#7952b3;">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+       
+        <div class="sidebar-brand-text mx-3"><img src="vendor/logo.jpg"> </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+         
+          <span style="font-size:1.5em;">Dashboard</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          
+          <span>My Task</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+       
+          <span>My Project</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+    
+          <span>My Wallet</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          
+          <span>History Data</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+       
+          <span>Invoice</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+         
+          <span>Helps</span></a>
+      </li>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          </li>
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <select class="selectpicker form-control bg-light border-1 small">
+                <option style="border:none;">All Category</option>
+                <option>All varities</option>
+                <option>All Varities1</option>
+              </select>
+              <input type="text" class="form-control bg-light form-rounded border-1 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn" type="button" style="background:#7952b3;">
+                  <i class="fas fa-search fa-sm" style="color: whitesmoke;"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <sup>
+                                        <span class="counter">8</span>
+                                    </sup>
+
+              </a>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-envelope fa-fw"></i>
+               </a></li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               
+                <img class="img-profile rounded-circle" src="vendor/logo1.jpg">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+  <!-- Content Row -->
+
+          <div class="row">
+
+            <!-- Area Chart -->
+            <div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold col">Statistics</h6>
+                  <div >
+                    <select class="selectpicker form-control bg-light border-0 small col">
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                    </select></div>
+                    <div>
+                    <select class="selectpicker form-control bg-light border-0 small col">
+                      <option>Month</option>
+                      <option>jan</option>
+                      <option>feb</option>
+                    </select>
+                   
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-3">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold col">Earning in Month</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-pie pt-4 pb-2">
+                    <div style=" width: 100%; height: 100%; float: left; position: relative;">
+                      <div style="width: 100%; height: 40px; position: absolute; top: 50%; left: 0; margin-top: -20px; line-height:19px; text-align: center; z-index: 999999999999999;font-size: 2em; font-weight: bold;"> 75%
+                      </div>
+                      <canvas id="myPieChart"></canvas>
+                    </div>
+                  </div>
+                    
+                  <div class="text-center small col">
+                    <span class="mr-2">
+                      Deposit:
+                    </span>
+                    <span class="mr-2">
+                     <b>$20 54 1 875 574</b>
+                    </span>
+                  </div>
+                  <div class="text-center small col">
+                    <span class="mr-2">
+                      Expese:
+                    </span>
+                    <span class="mr-2">
+                    <b>  $54 1 875 574</b>
+                    </span>
+                  </div>
+                  <div class=" text-center small col">
+                    <span class="mr-2">
+                      Payable:
+                    </span>
+                    <span >
+                    <b>  $805 875 574</b>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+              <!-- Pie Chart -->
+              <div class="col-xl-3 col-lg-5">
+                <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold  col">Monthly Sale</h6>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                      <div>
+                        <div style=" width:50px; height:53px;position: absolute; top: 35%; left: 36%; margin-top: -20px; line-height:20px; text-align: center; z-index: 999999999999999;  background: #7952b3; border-radius: 50%;"> <br><a class="arrow" href="#"></a>
+                        </div>
+                       
+                        <canvas id="myPieChartMonth"></canvas>
+                      </div>
+                    </div>
+                    
+                  <h4 class="small font-weight-bold "><span class="float-right">65%</span></h4>
+                  <div class="progress mb-2">
+                    <div class="progress-bar" role="progressbar" style="width: 65%;background-color: #7952b3; " aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div><br><h3 class="m-0 font-weight-bold text-center col">20 541</h4></div>
+                  <div><br><h6 class="m-0  text-center col">today income</h6></div><br>
+                </div>
+              
+                </div>
+              </div>  <!-- Pie Chart -->
+              <div class="col-xl-3 col-lg-5">
+                <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold col">yearly sale</h6>
+                    
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                      <div>
+                        <div style=" width:50px; height:53px;position: absolute; top: 35%; left: 36%; margin-top: -20px; line-height:20px; text-align: center; z-index: 999999999999999;  background: #1cc88a; border-radius: 50%;"> <br><a class="arrow" href="#"></a>
+                        </div>
+                        <canvas id="myPieChartYear"></canvas>
+                      </div>
+                    </div>
+                  <h4 class="small font-weight-bold col"><span class="float-right">75%</span></h4>
+                  <div class="progress mb-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80"></div>
+                  </div>
+                  <div><br><h3 class="m-0 font-weight-bold text-center col">20 54 125</h4></div>
+                  <div><br><h6 class="m-0  text-center col">today income</h6></div><br>
+                    </div>
+                    </div>
+                  </div>
+                
+            
+                <!-- Pie Chart -->
+            <div class="col-xl-6 col-lg-5">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold col">Calender</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class=" main ">
+                  
+                      <div class="sideb">
+                        <div class="header"><i class="fa fa-angle-left" aria-hidden="true"></i><span></span><span class="month"> </span><span class="year"></span></span><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                        <div class="calender">
+                          <table>
+                            <thead>
+                              <tr class="weedays">
+                                <th data-weekday="sun" data-column="0">Sun</th>
+                                <th data-weekday="mon" data-column="1">Mon</th>
+                                <th data-weekday="tue" data-column="2">Tue</th>
+                                <th data-weekday="wed" data-column="3">Wed</th>
+                                <th data-weekday="thu" data-column="4">Thu</th>
+                                <th data-weekday="fri" data-column="5">Fri</th>
+                                <th data-weekday="sat" data-column="6">Sat</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="days" data-row="0">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                              <tr class="days" data-row="1">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                              <tr class="days" data-row="2">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                              <tr class="days" data-row="3">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                              <tr class="days" data-row="4">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                              <tr class="days" data-row="5">
+                                <td data-column="0"></td>
+                                <td data-column="1"></td>
+                                <td data-column="2"></td>
+                                <td data-column="3"></td>
+                                <td data-column="4"></td>
+                                <td data-column="5"></td>
+                                <td data-column="6"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                       
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+              </div>
+      
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/admin-2.min.js"></script>
+  <script src="js/admin-2.js"></script>
+  <script src="js/function.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/demo/chart-pie-month.js"></script>
+  <script src="js/demo/chart-pie-year.js"></script>
+  
+</body>
+</html>
